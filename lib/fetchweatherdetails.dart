@@ -3,7 +3,7 @@ import 'package:http/http.dart' as http;
 import 'dart:convert';
 class FetchCurrentWeather {
   String city="Kolkata";
-    String apikey="";
+    String apikey="Add_API_Key_Here";
     FetchCurrentWeather(this.city);
     Future<Map<String,dynamic>> getCurrentWeather() async{
     try {
